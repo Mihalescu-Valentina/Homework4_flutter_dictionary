@@ -69,13 +69,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   AudioPlayer audioPlayer = AudioPlayer();
 
-
-                   if(index==0) {
-                     audioPlayer.play('https://www.computerhope.com/jargon/m/example.mp3');
-                   }
-
-
-
+                  if (index == 0) {
+                    audioPlayer.play(
+                        'https://www.computerhope.com/jargon/m/example.mp3');
+                  }
                 },
               );
             }));
